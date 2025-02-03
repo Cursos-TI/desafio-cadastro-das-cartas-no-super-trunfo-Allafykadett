@@ -4,7 +4,7 @@
 // Tema 1 - Cadastro das Cartas
 
 int main() {
-    printf("Cartas de Triunfo\n");
+    printf("Cartas Super Triunfo!\n");
 
     // Definição das variáveis
     
@@ -16,17 +16,12 @@ char Nome[50]; // Aumentado o tamanho para comportar nomes maiores
     // Cadastro das Cartas:
     
     
-printf("Digite o nome da cidade: ");
-    
-    
-scanf(" %[^\n]s", Nome); // Captura nome com espaços
-
+printf("\nDigite o nome da cidade: ");   
+scanf("%[^\n]s", &Nome); 
     
 
 printf("Digite a População: ");
-    
-  
-scanf("%lf", &Populacao);
+scanf("%lf\n", &Populacao);
 
     printf("Digite a Área (em km²): ");
     scanf("%lf", &Area);
@@ -51,7 +46,7 @@ printf("Digite o Número de Pontos Turísticos: ");
 
     // Exibição dos Dados das Cartas:
     printf("\n===== Dados da Cidade =====\n");
-    printf("Nome: %s\n", Nome);
+    printf("Nome: %[^\n]s", Nome);
     printf("População: %.2lf habitantes\n", Populacao);
     
   
