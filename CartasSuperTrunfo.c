@@ -50,7 +50,7 @@ int main() {
     float SuperPoder2 = Populacao2 + Area2 + PIB2 + PontosTuristicos2 + PIBPerCapita2 + (1 / DensidadePopulacional2);
 
     // Exibição dos resultados
-    printf("\n=== Comparação de Cartas ===\n");
+    printf("\n=== Comparação de Cartas ===\n\n");
     printf("População: Carta %d venceu (%d)\n", (Populacao1 > Populacao2) ? 1 : 2, Populacao1 > Populacao2);
     printf("Área: Carta %d venceu (%d)\n", (Area1 > Area2) ? 1 : 2, Area1 > Area2);
     printf("PIB: Carta %d venceu (%d)\n", (PIB1 > PIB2) ? 1 : 2, PIB1 > PIB2);
